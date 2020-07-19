@@ -43,7 +43,6 @@ p {
 
 a {
   text-decoration: none;
-  color: inherit;
 }
 
 a:hover,
@@ -58,12 +57,12 @@ button {
   background-color: var(--main-color);
   color: white;
   border-radius: 5px;
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 input {
-  padding: 5px;
+  padding: 0.5rem 1rem;
   border-radius: 5px;
-  border: 1px solid black;
+  border: 1px solid var(--secondary-color);
   margin-bottom: 1rem;
 }
