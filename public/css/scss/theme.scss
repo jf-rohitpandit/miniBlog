@@ -3,38 +3,46 @@
   box-sizing: border-box;
 }
 
-body {
-  padding: 1rem;
-}
-
 h1 {
   font-size: 2.4rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 h2 {
   font-size: 2.1rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 h3 {
   font-size: 1.8rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 h4 {
   font-size: 1.5rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 h5 {
   font-size: 1.2rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 h6 {
-  font-size: 0.8rem;
+  font-size: 1rem;
   margin-bottom: 5px;
+  font-weight: bold;
+  color: inherit;
 }
 
 p {
@@ -43,6 +51,7 @@ p {
 
 a {
   text-decoration: none;
+  //   color: white;
 }
 
 a:hover,
@@ -66,4 +75,39 @@ input {
   border-radius: 5px;
   border: 1px solid $secondaryColor;
   margin-bottom: 1rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $secondaryColor;
+  margin-bottom: 2rem;
+  padding: 0 2rem;
+  .logo {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    background-color: white;
+    border-radius: 50%;
+    :hover {
+      cursor: pointer;
+    }
+    img {
+      width: 100%;
+    }
+  }
+
+  nav {
+    width: 35rem;
+    ul {
+      display: flex;
+      justify-content: space-between;
+      li {
+        h6 {
+          color: white;
+        }
+      }
+    }
+  }
 }

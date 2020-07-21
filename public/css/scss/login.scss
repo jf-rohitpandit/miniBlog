@@ -1,7 +1,7 @@
 @import "./__config";
 
 body {
-  padding: 1rem;
+  //   padding: 1rem;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -9,13 +9,13 @@ body {
   overflow: hidden;
 }
 
-nav > ul {
-  background-color: white;
-  display: flex;
-  width: inherit;
-  padding: 0 1rem;
-  justify-content: space-between;
-}
+// nav > ul {
+//   background-color: white;
+//   display: flex;
+//   width: inherit;
+//   padding: 0 1rem;
+//   justify-content: space-between;
+// }
 
 main {
   border: 1px solid $secondaryColor;
