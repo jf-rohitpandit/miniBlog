@@ -63,4 +63,8 @@ main .content-list .content .content-foot {
           justify-content: space-between;
   padding: 0.5rem;
 }
+
+main .content-list .content .content-foot .content-foot-item:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=index.css.map */
