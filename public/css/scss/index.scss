@@ -1,0 +1,23 @@
+@import "__config.scss";
+
+main {
+  .content-list {
+    padding: 0 10rem;
+    .content {
+      padding: 1.5rem;
+      width: 40rem;
+      background-color: $secondaryColor;
+      .content-head {
+        display: grid;
+
+        img {
+          border-radius: 50%;
+          width: 4rem;
+          height: 4rem;
+          object-fit: fill;
+          overflow: hidden;
+        }
+      }
+    }
+  }
+}

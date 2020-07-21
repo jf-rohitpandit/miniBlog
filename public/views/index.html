@@ -3,6 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/@fortawesome/fontawesome-free/css/all.css"
+    />
     <link rel="icon" href="../img/icon.png" />
     <link rel="stylesheet" href="../css/reset.css" />
     <link rel="stylesheet" href="../css/theme.css" />
@@ -14,19 +18,19 @@
     <header>
       <nav>
         <ul>
-          <li>Home</li>
-          <li>Treanding</li>
-          <li>Write</li>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="trending.html">trending</a></li>
+          <li><a href="explore.html">explore</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section class="content-list">
         <!-- main content of the page -->
         <div class="content">
           <div class="content-head">
             <!-- user info -->
-            <img src="../img/profile1.jpg" alt="profile photo" />
+            <img src="../img/profile1.jpg" alt="profile picture" />
             <h5>Rohit Pandit</h5>
             <h6>time</h6>
           </div>
@@ -43,9 +47,9 @@
           </div>
           <div>
             <!-- like, comment, share -->
-            <div class="">Like</div>
-            <div class="">comment</div>
-            <div class="">share</div>
+            <div class=""><i class="far fa-heart"></i>Like</div>
+            <div class=""><i class="far fa-comment"></i>comment</div>
+            <div class=""><i class="far fa-share-square"></i>share</div>
           </div>
         </div>
       </section>

@@ -1,0 +1,24 @@
+main .content-list {
+  padding: 0 10rem;
+}
+
+main .content-list .content {
+  padding: 1.5rem;
+  width: 40rem;
+  background-color: #85929e;
+}
+
+main .content-list .content .content-head {
+  display: -ms-grid;
+  display: grid;
+}
+
+main .content-list .content .content-head img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  -o-object-fit: fill;
+     object-fit: fill;
+  overflow: hidden;
+}
+/*# sourceMappingURL=index.css.map */
