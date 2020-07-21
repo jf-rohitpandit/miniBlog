@@ -3,22 +3,60 @@ main .content-list {
 }
 
 main .content-list .content {
-  padding: 1.5rem;
+  padding: 1rem 1.5rem;
   width: 40rem;
-  background-color: #85929e;
+  border: 1px solid #85929e;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 main .content-list .content .content-head {
-  display: -ms-grid;
-  display: grid;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 main .content-list .content .content-head img {
+  width: 8rem;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 1;
+      grid-row-start: 1;
+  grid-row-end: 3;
   border-radius: 50%;
   width: 4rem;
   height: 4rem;
-  -o-object-fit: fill;
-     object-fit: fill;
+  -o-object-fit: cover;
+     object-fit: cover;
   overflow: hidden;
+}
+
+main .content-list .content .content-head .content-head-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 1rem;
+}
+
+main .content-list .content .content-body {
+  margin: 1rem 0;
+}
+
+main .content-list .content .content-foot {
+  border-top: 1px solid #85929e;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0.5rem;
 }
 /*# sourceMappingURL=index.css.map */

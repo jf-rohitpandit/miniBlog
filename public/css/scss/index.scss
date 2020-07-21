@@ -4,19 +4,43 @@ main {
   .content-list {
     padding: 0 10rem;
     .content {
-      padding: 1.5rem;
+      padding: 1rem 1.5rem;
       width: 40rem;
-      background-color: $secondaryColor;
+      border: 1px solid $secondaryColor;
+      border-radius: 1rem;
+      margin-bottom: 1rem;
+
       .content-head {
-        display: grid;
+        display: flex;
 
         img {
+          width: 8rem;
+          grid-column: 1;
+          grid-row-start: 1;
+          grid-row-end: 3;
           border-radius: 50%;
           width: 4rem;
           height: 4rem;
-          object-fit: fill;
+          object-fit: cover;
           overflow: hidden;
         }
+
+        .content-head-info {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding-left: 1rem;
+        }
+      }
+      .content-body {
+        margin: 1rem 0;
+      }
+
+      .content-foot {
+        border-top: 1px solid $secondaryColor;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.5rem;
       }
     }
   }
